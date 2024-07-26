@@ -20,7 +20,7 @@ const TotalBalanceBox = ({
           </p>
 
           <p className='total-balance-amount flex-center gap-2'>
-            {totalCurrentBalance}
+            {formatAmount(totalCurrentBalance)}
           </p>
         </div>
 
