@@ -1,6 +1,10 @@
 const Sidebar = ({user}: SiderbarProps) => {
   return (
-    <div>Sidebar</div>
+    <section className='sidebar'>
+        <nav className='flex flex-col gap-4'>
+
+        </nav>
+    </section>
   )
 }
 
