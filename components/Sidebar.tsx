@@ -1,4 +1,4 @@
-const Sidebar = () => {
+const Sidebar = ({user}: SiderbarProps) => {
   return (
     <div>Sidebar</div>
   )
